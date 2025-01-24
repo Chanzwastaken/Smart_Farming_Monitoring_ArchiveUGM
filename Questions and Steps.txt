@@ -1,0 +1,33 @@
+Ide dasar proyek kelompok yang akan diselesaikan sampai dengan Ujian Akhir adalah mengembangkan aplikasi IoT secara simulasi menggunakan aplikasi yang tersedia secara online, yaitu WOKWI dan ThingSpeak. Pengembangan aplikasi IoT menitikberatkan pada pengembangan smart object menggunakan WOKWI dan visualisasi data dan informasi untuk analisis menggunakan ThingSpeak.
+
+Proyek kelompok dibagi menjadi tahapan:
+
+Pembentukan tim dan penyusunan konsep aplikasi IoT
+Pengembangan smart object menggunakan WOKWI
+Pengumpulan data menggunakan ThingSpeak
+Analisis data menggunakan ThingSpeak
+Untuk menyelesaikan proyek kelompok, 3-4 mahasiswa bergabung membentuk 1 kelompok. Anggota kelompok tidak boleh berubah sampai proyek kelompok diselesaikan. Laporan-laporan untuk setiap tahapan dituliskan pada tempat yang telah disediakan dalam kurun waktu yang ditentukan.
+
+1. Laporan berisikan nama-nama anggota kelompok beserta NIM dan konsep aplikasi IoT yang akan dibangun. Aplikasi IoT yang dibangun harus memungkinkan dilakukan secara simulasi menggunakan WOKWI. Aplikasi IoT dapat menggunakan komponen sensor yang tersedia di WOKWI atau menggunakan sumber eksternal sebagai sebagai data yang diakusisi. Tambahkan gambar dan/atau desain arsitektur aplikasi IoT secara umum.
+
+Laporan ditulis secara langsung pada tugas ini. Tautan ke dokumen lain tidak diperkenankan. Satu kelompok cukup mengumpulkan satu laporan. Perhatikan tenggat waktunya!
+
+2. Berdasarkan konsep aplikasi IoT yang sudah disepakati kelompok, buatlah smart object yang akan menjadi bagian dari aplikasi IoT menggunakan WOKWI.
+
+Pada tahap ini, buatlah smart object minimal sejumlah anggota kelompok. Smart object yang dibuat dapat menggunakan sensor yang sama atau sensor yang berbeda. Lakukan simulasi untuk masing-masing smart object dengan menampilkan data melalui serial monitor.
+
+Laporan ditulis per anggota kelompok untuk satu smart object yang dibuat. Sertakan gambar rangkaian dan source code dari WOKWI dan tunjukkan hasil simulasinya serta link ke project di WOKWI untuk smart object yang dibahas dalam laporan. Tulislah pembahasan untuk smart object yang dibuat. Laporan ditulis langsung di tempat yang telah disediakan. Link ke dokumen lain tidak diperkenankan, kecuali link ke project WOKWI. Perhatikan batas waktunya! 
+
+3. Setelah mengembangkan smart object dan melakukan simulasi menggunakan WOKWI, di tahap ketiga ini adalah tahap pengumpulan data. Smart object yang sudah dikembangkan dihubungkan ke ThingSpeak sehingga data yang diakuisisi dapat disimpan di ThingSpeak.
+
+Untuk menyelesaikan tahap ini, buatlah satu akun bersama di ThingSpeak. Konfigurasi channel di ThingSpeak untuk menerima data dari smart object-smart object yang sudah dibuat. ThingSpeak harus dapat membedakan asal data dari smart object yang mana. Modifikasi smart object yang telah dibuat sebelumnya untuk dapat terhubung dengan ThingSpeak dan mengirimkan data ke channel yang telah dikonfigurasi. Gunakan REST API dan MQTT untuk mengirimkan data ke ThingSpeak (dalam satu kelompok harus mengimplementasikan REST API atau MQTT pada smart object dengan minimal satu smart object harus berbeda dengan smart object yang lain). Simulasikan pengiriman data dari smart object ke ThingSpeak secara bersama-sama untuk kurun waktu tertentu. Amati data pada tampilan/dashboard yang ada di ThingSpeak.
+
+Laporan ditulis secara mandiri masing-masing anggota kelompok secara langsung pada tempat yang telah tersedia. Link ke dokumen lain tidak diperkenankan. Jelaskan konfigurasi yang dilakukan pada ThingSpeak dan jelaskan modifikasi yang dilakukan pada smart object sehingga dapat terhubung dan mengirimkan data ke ThingSpeak. Tunjukkan, dengan screenshot, simulasi pengiriman data ke ThingSpeak. Ingat batas akhir mengumpulkan laporan!
+
+4.Tahap terakhir dari proyek kelompok adalah analisis data menggunakan ThingSpeak. ThingSpeak memberikan dua fasilitas analisis, yaitu MATLAB Analysis dan MATLAB Visualization, yang dapat ditemukan pada menu Apps.
+
+Dengan data yang telah dikumpulkan pada satu akun ThingSpeak, lakukan analisis data dan visualisasikan datanya dalam bentuk grafik sehingga menjadi dashboard sebagai alat bantu untuk mengambil keputusan.
+
+Laporan ditulis langsung di tempat yang sudah disediakan secara kelompok (cukup satu laporan untuk satu kelompok). Link ke dokumen lain tidak diperkenankan. Laporan harus menunjukkan rancangan dan tampilan dashboard yang dibuat, dan memberikan penjelasan hasil analisis data dan visualisasinya. Pastikan data yang dikumpulkan cukup variatif dan cukup untuk dilakukan analisis pada data.
+
+Rekam presentasi hasil proyek kelompok untuk masing-masing kelompok. Untuk merekam presentasi, boleh menggunakan Google Meet atau Zoom. Link rekaman presentasi wajib dicantumkan pada laporan dan dapat diakses secara publik. Perhatikan batas akhirnya!
